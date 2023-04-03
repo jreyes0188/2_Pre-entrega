@@ -1,0 +1,30 @@
+.Barra_Navegacion {
+    display: flex;
+    background: rgb(109, 109, 109);
+    min-width: 5vh;
+    width: 100%;
+    margin-top: 10px;
+    border: 3px solid rgb(207, 127, 223);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.Cart_Shop{
+    display: flex;
+    color: white;
+}
+
+.Cart_Shop span{
+    color: rgb(232, 144, 250);
+}

@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+// Componentes //
+import Info from "./Componentes/Info/Info"
+import Header from "./Componentes/Header/Header"
+import NavBar from "./Componentes/NavBar/NavBar";
+
+
+//React Router Dom
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+//Pages
+import Inicio from "./Pages/Inicio/Inicio"
+import Catalogo from "./Pages/Catalogo/Catalogo"
+import Consultas from "./Pages/Consultas/Consultas"
+import DetallesProducto from "./Pages/DetallesProducto/DetallesProducto"
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Info />
+        <Header title="Arte con Resina" />
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<Inicio />}  />
+          <Route path='/catalogo' element={<Catalogo />} />
+          <Route path='/consultas' element={<Consultas />} />
+          <Route path= '/detalles-producto/:id' element = {<DetallesProducto/>} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

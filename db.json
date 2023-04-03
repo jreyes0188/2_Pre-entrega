@@ -1,0 +1,69 @@
+{
+    "mayla":[
+        {
+            "id": 1,
+            "name": "Vaso Starbucks",
+            "price": 8000,
+            "img": "https://tinypic.host/images/2023/04/03/Vaso_Starbucks.png",
+            "description": "Acero inoxidable, térmico, Tapa con orificio"        
+        },
+    
+        {
+            "id": 2,
+            "name": "Botella Plastica",
+            "price": 4500,
+            "img": "https://tinypic.host/images/2023/04/03/Botella_Plastica.png",
+            "description": "Plastico, tapa rosca, pico y sorbete"
+        },
+    
+        {
+            "id": 3,
+            "name": "Mate de Madera",
+            "price": 3000,
+            "img": "https://tinypic.host/images/2023/04/03/Mate_de_Madera.png",
+            "description": "Madera de algarrobo, incluye bombilla"
+        },
+    
+        {
+            "id": 4,
+            "name": "Mate de Madera",
+            "price": 3000,
+            "img": "https://tinypic.host/images/2023/04/03/Mate_de_Madera2.png",
+            "description": "Madera de algarrobo, incluye bombilla"
+        },
+    
+        {
+            "id": 5,
+            "name": "Mate de Madera",
+            "price": 3000,
+            "img": "https://tinypic.host/images/2023/04/03/Mate_de_Madera3.png",
+            "description": "Madera de algarrobo, incluye bombilla"
+        },
+    
+        {
+            "id": 6,
+            "name": "Placa para Perros",
+            "price": 800 ,
+            "img": "https://tinypic.host/images/2023/04/03/Placa_con_nombre_para_perros.png",
+            "description": "Placa con Nombre para Perros"
+        },
+    
+        {
+            "id": 7,
+            "name": "Llavero con Dije de Resina",
+            "price": 1400 ,
+            "img": "https://tinypic.host/images/2023/04/03/Letra_con_Dije.png",
+            "description": "Letra con Dije de Resina"
+        },
+    
+        {
+            "id": 8,
+            "name": "Llavero con Borla",
+            "price": 1200 ,
+            "img": "https://tinypic.host/images/2023/04/03/Letra_con_Borla.png",
+            "description": "Letra con Dije de Resina"
+        }
+
+    ]
+}
+
